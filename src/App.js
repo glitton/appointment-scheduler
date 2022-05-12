@@ -45,6 +45,7 @@ function App() {
             <AppointmentsPage
               addAppointment={addAppointment}
               appointments={appointments}
+              constacts={contacts}
             />
           </Route>
         </Switch>

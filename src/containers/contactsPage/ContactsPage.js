@@ -14,7 +14,7 @@ export const ContactsPage = (props) => {
   const [email, setEmail] = useState("")
   const [duplicate, setDuplicate] = useState(false)
 
-  // check if name is already in contacts, if it is set duplicate state to true
+  // check if name is already in contacts, if it is, set duplicate state to true
   useEffect(() => {
     for (const contact of contacts) {
       if (name === contact.name) {
